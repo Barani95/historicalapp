@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The app is available to access at the following URL:
+https://barani95.github.io/historicalapp/
+
 ## Available Scripts
 
 In the project directory, you can run:
