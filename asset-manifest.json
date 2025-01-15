@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/historical-places-app/static/css/main.5781a946.css",
+    "main.js": "/historical-places-app/static/js/main.1db3b41d.js",
+    "index.html": "/historical-places-app/index.html",
+    "main.5781a946.css.map": "/historical-places-app/static/css/main.5781a946.css.map",
+    "main.1db3b41d.js.map": "/historical-places-app/static/js/main.1db3b41d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5781a946.css",
+    "static/js/main.1db3b41d.js"
+  ]
+}
