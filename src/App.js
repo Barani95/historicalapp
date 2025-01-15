@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,  HashRouter } from "react-router-dom";
 import PlaceList from "./components/PlaceList";
 import PlaceDetail from "./components/PlaceDetail";
 import NotFoundPage from "./components/NotFoundPage";
@@ -13,7 +13,7 @@ import { Container, Row, Col } from "reactstrap";
 const App = () => {
   return (
     <Provider store={store}>
-      <Router>
+      <HashRouter>
         <Container>
           <Row>
             <Col lg="12">
@@ -30,7 +30,7 @@ const App = () => {
             </Col>
           </Row> */}
         </Container>
-      </Router>
+      </HashRouter>
     </Provider>
   );
 };
