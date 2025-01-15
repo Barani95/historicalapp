@@ -1,0 +1,31 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - npm install
+
+build:
+  stage: build
+  script:
+    - rm -rf build
+    - npm cache clean --force
+    - npm run build
+  artifacts:
+    paths:
+      - build/
+
+pages:
+  stage: deploy
+  variables:
+    NODE_ENV: production
+    PUBLIC_URL: https://historical-places-app-7def77.gitlab.io
+  script:
+    - mv build public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

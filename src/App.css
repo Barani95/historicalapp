@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+}
+
+.left-column {
+  flex: 3;
+}
+
+.right-column {
+  flex: 1;
+}
+a:hover{
+  color: cyan;
+}
