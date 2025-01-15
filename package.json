@@ -14,7 +14,7 @@
     "redux": "^5.0.1"
   },
 
-  "homepage": "https://baranidev.github.io/historical-places-app",
+  "homepage": "http://Barani95.github.io/historicalapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
